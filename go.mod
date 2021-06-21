@@ -1,3 +1,3 @@
-module go.jlucktay.dev/template-go
+module go.jlucktay.dev/recordscratch
 
 go 1.15

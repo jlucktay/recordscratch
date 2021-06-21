@@ -6,7 +6,7 @@
 
 # Build and binary files
 Dockerfile
-template-go
+recordscratch
 
 # Makefile things
 /hack/bin/
