@@ -93,8 +93,9 @@ func main() {
 	}
 
 	finishParse := time.Now().UnixNano()
-	parseMicros := (finishParse - startParse) / 1e3
-	fmt.Printf("done in %dμs.\n", parseMicros)
+	parseSeconds := float64((finishParse - startParse)) / 1e9
+
+	fmt.Printf("done in %s.\n", humanize.SI(parseSeconds, "s"))
 	fmt.Printf("Keeping %d items from playlist.\n", len(filesToKeep))
 
 	savedSpace := uint64(0)
