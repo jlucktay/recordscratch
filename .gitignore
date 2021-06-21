@@ -28,3 +28,6 @@
 /hack/bin/
 /out/
 /tmp/
+
+# Binaries
+recordscratch
